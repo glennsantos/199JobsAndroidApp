@@ -710,6 +710,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 	public boolean url_actions(WebView view, String url){
 		boolean a = true;
+
+		//only update for internal links
+		if (url.contains(ASWV_HOST)) {
+			CURR_URL = url;
+		}
+
 		// show toast error if not connected to the network
 		if (!ASWP_OFFLINE && !DetectConnection.isInternetAvailable(MainActivity.this)) {
 			Toast.makeText(getApplicationContext(), getString(R.string.check_connection), Toast.LENGTH_SHORT).show();
