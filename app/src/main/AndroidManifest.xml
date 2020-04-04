@@ -62,10 +62,9 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="https"
-                    android:host="github.com"
-                    android:pathPrefix="/mgks" />
-					<!-- if you want only a specific directory from your website to be opened in the app through external links -->
+
+				<data android:scheme="https" android:host="199jobs.com"/>
+
 			</intent-filter>
 			<intent-filter android:label="OpenURI">
 				<action android:name="Open_URI" />
