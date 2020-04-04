@@ -10,7 +10,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.jobs199.smartwebview"
+    package="com.jobs199"
     android:installLocation="auto">
 
     <supports-screens

@@ -1,4 +1,4 @@
-package com.jobs199.smartwebview;
+package com.jobs199;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -8,13 +8,13 @@ import android.view.View;
 
 import java.util.Date;
 
-import static com.jobs199.smartwebview.DialogManager.create;
-import static com.jobs199.smartwebview.PreferenceHelper.getInstallDate;
-import static com.jobs199.smartwebview.PreferenceHelper.getIsAgreeShowDialog;
-import static com.jobs199.smartwebview.PreferenceHelper.getLaunchTimes;
-import static com.jobs199.smartwebview.PreferenceHelper.getRemindInterval;
-import static com.jobs199.smartwebview.PreferenceHelper.isFirstLaunch;
-import static com.jobs199.smartwebview.PreferenceHelper.setInstallDate;
+import static com.jobs199.DialogManager.create;
+import static com.jobs199.PreferenceHelper.getInstallDate;
+import static com.jobs199.PreferenceHelper.getIsAgreeShowDialog;
+import static com.jobs199.PreferenceHelper.getLaunchTimes;
+import static com.jobs199.PreferenceHelper.getRemindInterval;
+import static com.jobs199.PreferenceHelper.isFirstLaunch;
+import static com.jobs199.PreferenceHelper.setInstallDate;
 
 public final class AppRate {
 

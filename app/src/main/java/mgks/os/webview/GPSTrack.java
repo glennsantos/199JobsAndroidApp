@@ -1,4 +1,4 @@
-package com.jobs199.smartwebview;
+package com.jobs199;
 
 import android.Manifest;
 import android.annotation.SuppressLint;

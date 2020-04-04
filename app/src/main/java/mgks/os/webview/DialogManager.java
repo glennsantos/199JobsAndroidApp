@@ -1,4 +1,4 @@
-package com.jobs199.smartwebview;
+package com.jobs199;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -16,14 +16,14 @@ import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 import java.util.List;
 
-import static com.jobs199.smartwebview.IntentHelper.createIntentForAmazonAppstore;
-import static com.jobs199.smartwebview.IntentHelper.createIntentForGooglePlay;
-import static com.jobs199.smartwebview.PreferenceHelper.setAgreeShowDialog;
-import static com.jobs199.smartwebview.PreferenceHelper.setRemindInterval;
-import static com.jobs199.smartwebview.UriHelper.getAmazonAppstore;
-import static com.jobs199.smartwebview.UriHelper.getGooglePlay;
-import static com.jobs199.smartwebview.UriHelper.isPackageExists;
-import static com.jobs199.smartwebview.Utils.getDialogBuilder;
+import static com.jobs199.IntentHelper.createIntentForAmazonAppstore;
+import static com.jobs199.IntentHelper.createIntentForGooglePlay;
+import static com.jobs199.PreferenceHelper.setAgreeShowDialog;
+import static com.jobs199.PreferenceHelper.setRemindInterval;
+import static com.jobs199.UriHelper.getAmazonAppstore;
+import static com.jobs199.UriHelper.getGooglePlay;
+import static com.jobs199.UriHelper.isPackageExists;
+import static com.jobs199.Utils.getDialogBuilder;
 
 final class DialogManager {
 

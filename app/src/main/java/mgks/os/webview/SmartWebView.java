@@ -1,4 +1,4 @@
-package com.jobs199.smartwebview;
+package com.jobs199;
 
 /*
  * Android Smart WebView is an Open Source Project available on GitHub (https://github.com/mgks/Android-SmartWebView).
@@ -28,7 +28,7 @@ class SmartWebView {
 	static boolean ASWP_OFFLINE       = false;        // whether the loading webpages are offline or online
 	static boolean ASWP_EXTURL        = false;         // open external url with default browser instead of app webview
 
-	static boolean ASWP_TAB           = false;         // instead of default browser, open external URLs in chrome tab
+	static boolean ASWP_TAB           = true;         // instead of default browser, open external URLs in chrome tab
 	static boolean ASWP_ADMOB         = false;         // to load admob or not
 
 	static boolean ASWP_EXITDIAL	  = true;		  // confirm to exit app on back press
