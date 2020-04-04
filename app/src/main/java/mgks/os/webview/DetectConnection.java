@@ -1,4 +1,4 @@
-package mgks.os.webview;
+package com.jobs199.smartwebview;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

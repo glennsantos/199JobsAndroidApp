@@ -1,4 +1,4 @@
-package mgks.os.webview;
+package com.jobs199.smartwebview;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -8,13 +8,13 @@ import android.view.View;
 
 import java.util.Date;
 
-import static mgks.os.webview.DialogManager.create;
-import static mgks.os.webview.PreferenceHelper.getInstallDate;
-import static mgks.os.webview.PreferenceHelper.getIsAgreeShowDialog;
-import static mgks.os.webview.PreferenceHelper.getLaunchTimes;
-import static mgks.os.webview.PreferenceHelper.getRemindInterval;
-import static mgks.os.webview.PreferenceHelper.isFirstLaunch;
-import static mgks.os.webview.PreferenceHelper.setInstallDate;
+import static com.jobs199.smartwebview.DialogManager.create;
+import static com.jobs199.smartwebview.PreferenceHelper.getInstallDate;
+import static com.jobs199.smartwebview.PreferenceHelper.getIsAgreeShowDialog;
+import static com.jobs199.smartwebview.PreferenceHelper.getLaunchTimes;
+import static com.jobs199.smartwebview.PreferenceHelper.getRemindInterval;
+import static com.jobs199.smartwebview.PreferenceHelper.isFirstLaunch;
+import static com.jobs199.smartwebview.PreferenceHelper.setInstallDate;
 
 public final class AppRate {
 

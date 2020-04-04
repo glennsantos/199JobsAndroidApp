@@ -1,4 +1,4 @@
-package mgks.os.webview;
+package com.jobs199.smartwebview;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
