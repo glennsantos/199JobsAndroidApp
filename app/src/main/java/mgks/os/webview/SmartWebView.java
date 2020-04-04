@@ -42,12 +42,12 @@ class SmartWebView {
 	static int ASWV_LAYOUT            = 0;            // default=0; for clear fullscreen layout, and =1 for drawer layout
 
 	// URL configs
-	static String ASWV_URL            = "file:///android_asset/offline.html";     // complete URL of your website or offline webpage
+	static String ASWV_URL            = "https://199jobs.com/my-account/";     // complete URL of your website or offline webpage
 	static String ASWV_SEARCH         = "https://www.google.com/search?q=";       // search query will start by the end of the present string
 	static String ASWV_SHARE_URL      = ASWV_URL + "?share=";                     // URL where you process external content shared with the app
 
 	// domains allowed to be opened inside webview
-	static String ASWV_EXC_LIST       = "github.com,www.google.com";              //separate domains with a comma (,)
+	static String ASWV_EXC_LIST       = "199jobs.com,www.facebook.com";              //separate domains with a comma (,)
 
 	// to upload any file type using "*/*"; check file type references for more
 	static String ASWV_F_TYPE         = "*/*";
