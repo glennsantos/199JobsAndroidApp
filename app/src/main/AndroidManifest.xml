@@ -10,7 +10,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="mgks.os.webview"
+    package="com.jobs199"
     android:installLocation="auto">
 
     <supports-screens
@@ -29,12 +29,12 @@
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" tools:remove="android:maxSdkVersion" />
 	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.VIBRATE" />
+	<!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+	<uses-permission android:name="android.permission.VIBRATE" />
 	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
 	<!-- remove location.gps feature if not using permission ACCESS_FINE_LOCATION -->
-    <uses-feature android:name="android.hardware.location.gps" />
+    <!-- <uses-feature android:name="android.hardware.location.gps" /> -->
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
 
     <application
@@ -62,10 +62,9 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="https"
-                    android:host="github.com"
-                    android:pathPrefix="/mgks" />
-					<!-- if you want only a specific directory from your website to be opened in the app through external links -->
+
+				<data android:scheme="https" android:host="199jobs.com"/>
+
 			</intent-filter>
 			<intent-filter android:label="OpenURI">
 				<action android:name="Open_URI" />
